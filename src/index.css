@@ -83,6 +83,7 @@ nav ul li a:hover::after{
   left: 120px;
   font-weight: bold;
   text-transform: uppercase;
+  opacity: 1;
 }
 
 .search{
@@ -93,4 +94,76 @@ nav ul li a:hover::after{
 .menu{
   position:fixed;
   right:100px;
+}
+
+.img img{
+  position: relative;
+  width: 450px;
+  left: 8.5%;
+  top: -70px;
+}
+
+.title{
+  position: fixed;
+  position: absolute;
+  top: 276px;
+  left: 43%;
+  line-height: .5;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: -6px;
+}
+
+.title p{
+  font-size: 25px;
+  font-weight: 300;
+  color: grey;
+  text-transform: uppercase;
+  left: 150px;
+  letter-spacing: 10px;
+}
+
+.btn a{
+  position:relative;
+  text-decoration: none;
+  bottom: 260px;
+  right: -57%;
+  text-transform: uppercase;
+  background: #ff3131;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: .4s;
+
+}
+
+.btn a:hover{
+  background: #000;
+  color: #fff;
+}
+
+.year{
+  font-weight: 700;
+  position: fixed;
+  top: 556px;
+  left: 110px;
+  padding: 10px 30px;
+}
+
+.media ul{
+  list-style: none;
+  position: fixed;
+  right:20px;
+  top: 63%;
+  padding: 10px 30px;
+}
+
+.media ul li{
+  font-size: 18px;
+  margin: 24px 0;
+  transition: .3s;
+}
+
+.media ul li:hover{
+  transform: scale(1.9);
 }
